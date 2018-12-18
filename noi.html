@@ -1,0 +1,70 @@
+<script id="ch0101/01" type="1.01.01">
+
+	console.log("Hello,World!");
+
+</script>
+<script id="ch0101/02" type="1.01.02">
+	var firstIn = prompt("请输入第一个整数");
+	var secondIn = prompt("请输入第二个整数");
+	var thirdIn = prompt("请输入第三个整数");
+	
+	console.log(secondIn);
+
+</script>
+<script id="ch0101/03" type="1.01.03">
+	
+	var firstIn = prompt("请输入第一个整数");
+	var secondIn = prompt("请输入第二个整数");
+	var thirdIn = prompt("请输入第三个整数");
+	function fillToEight(str){
+		var lengthPrev=str.length();
+		for(var i=lengthPrev;i<9;i++){
+			str=" "+str;
+		}
+		for(i;i<9;i++){
+			str=str+" ";
+		}
+	}
+
+	console.log(fillToEight(firstIn)+fillToEight(secondIn)+fillToEight(thirdIn));
+	
+</script>
+<script id="ch0101/04" type="1.01.04">
+	
+	var numberIn = prompt("请输入浮点数");
+
+	
+	console.log(numberIn.toFixed(3));
+	
+</script>
+
+<script id="ch0101/05" type="1.01.05">
+	
+	var numberIn = prompt("请输入双精度浮点数");
+
+	
+	console.log(numberIn.toFixed(12));
+	
+</script>
+<script id="ch0101/06" type="1.01.06">
+	
+	var firstIn = prompt("请输入字符");
+	var secondIn = prompt("请输入整数");
+	var thirdIn = prompt("请输入单精度浮点数");
+	var fourIn = prompt("请输入双精度浮点数");
+
+	console.log(firstIn+" "+secondIn+" "+thirdIn.toFixed(6)+" "+fourIn.toFixed(6));
+	
+</script>
+<script id="ch0101/07" type="1.01.07">
+	
+	var numberIn = prompt("请输入双精度浮点数");
+	
+	console.log(numberIn.toPrecision(6));
+	console.log(numberIn.toFixed(5));
+	console.log(numberIn.toExponential(5));
+	console.log(numberIn.toPrecision(4));
+	
+</script>
+
+
