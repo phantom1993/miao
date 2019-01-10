@@ -1,4 +1,4 @@
-var phantom1993 = funtction() {
+var phantom1993 = function() {
 
 
 	function chunk(arry,size=1){
